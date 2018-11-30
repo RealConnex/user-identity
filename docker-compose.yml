@@ -2,7 +2,7 @@ version: '3'
 
 services:
     package:
-        container_name: realconnex.identity
+        container_name: realconnex.user-identity
         build:
             context: .
             dockerfile: Dockerfile

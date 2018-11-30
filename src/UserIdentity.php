@@ -9,10 +9,10 @@ use Realconnex\HttpRequest;
 use Lcobucci\JWT\Parser;
 
 /**
- * Class Identity
+ * Class UserIdentity
  * @package Realconnex
  */
-class Identity
+class UserIdentity
 {
     const AUTH_SERVICE = 'mbau';
 
@@ -41,7 +41,7 @@ class Identity
     protected $httpRequest;
 
     /**
-     * Identity constructor.
+     * UserIdentity constructor.
      *
      * @param HttpRequest $httpRequest
      * @param string|null $authServiceName

@@ -1,6 +1,6 @@
 {
-    "name": "realconnex/identity",
-    "description": "Realconnex identity library.",
+    "name": "realconnex/user-identity",
+    "description": "Realconnex user identity library.",
     "license": "MIT",
     "authors": [
         {
