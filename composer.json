@@ -12,7 +12,7 @@
         "php": ">=7.2.7",
         "ext-json": "*",
         "lcobucci/jwt": "^3.2",
-        "realconnex/http-request": "^0.0.2",
+        "realconnex/http-request": "dev-master",
         "symfony/http-foundation": "^4.1.2"
     },
     "autoload": {
