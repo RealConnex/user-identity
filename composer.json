@@ -1,0 +1,23 @@
+{
+    "name": "realconnex/identity",
+    "description": "Realconnex identity library.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Realconnex",
+            "email": "info@realconnex.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.7",
+        "ext-json": "*",
+        "lcobucci/jwt": "^3.2",
+        "realconnex/http-request": "^0.0.2",
+        "symfony/http-foundation": "^4.1.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Realconnex\\": "src"
+        }
+    }
+}
